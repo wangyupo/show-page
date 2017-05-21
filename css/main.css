@@ -57,7 +57,7 @@ h2,h3 {
 .header__nav-item_status_active {
     color: #f01400;
 }
-.header__nav-item_status_active:after {
+.header__nav-item_status_active::after {
     content: ' ';
     display: block;
     width: 100%;
